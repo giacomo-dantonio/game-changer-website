@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #213547;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,11 +20,12 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #747bff;
 }
 
 body {
   margin: 0;
+  display: block;
   display: block;
   place-items: center;
   min-width: 320px;
@@ -36,34 +37,6 @@ h1 {
   line-height: 1.1;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -71,7 +44,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #f9f9f9;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -83,32 +56,194 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0px 20px;
 }
 
 .rainbow {
   max-width: 50vw;
   max-height: 50vh;
+  z-index: 10;
+  border-radius: 10%;
 }
+
+.dialog-content {
+  width: 80vh;
+  height: 80vh;
+
+  background-color: #daffef;
+  border-radius: 10%;
+}
+
+.dialog-content .avatar {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.justify {
+  text-align: justify;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   text-align: center;
 }
+
+.dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.dialog:not(.step-0) {
+  display: none;
+}
+
 .title {
   position: absolute;
+  z-index: 10;
+}
+
+.with-bg {
+  background-color: #c0fdfb;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.problem-image {
+  max-width: 10vw;
+  max-height: 10vh;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+.section1 p {
+  font-weight: bold;
+}
+.problem {
+  font-size: 50px;
+}
+.content {
+  max-width: 1000px;
+}
+
+.content li {
+  max-width: 300px;
+}
+
+#rpg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+@media (min-width: 800px) {
+  #rpg {
+    width: 816px;
+    height: 624px;
+  }
+}
+
+@media (max-width: 800px) {
+  #rpg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.section_4 {
+  height: 600px;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #f5f5f5;
+  justify-content: center;
+  align-items: center;
+}
+.content_4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  height: 434px;
+  width: 700px;
+  background-color: #f5f5f5;
+}
+.headline_4 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.title_4 {
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.text_4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 1.5em;
+  padding: 0;
+}
+
+.heart_4 {
+  width: 112px;
+  height: 97px;
+  margin-bottom: 40px;
+}
+
+.button_4 {
+  width: 170px;
+  height: 70px;
+  margin-right: 20px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  background-color: #daffef;
+  border: solid 5px #64b6ac;
 }
 .section2 {
   background-color: white;
