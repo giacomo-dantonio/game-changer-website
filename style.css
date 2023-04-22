@@ -247,6 +247,7 @@ li {
 }
 .section2 {
   background-color: white;
+  display: block;
 }
 .heading {
   text-align: center;
@@ -255,5 +256,50 @@ li {
 
 .paragraph {
   text-align: center;
-  margin: 0px 40px 0px 40px;
+  margin: 0px 80px 0px 80px;
+  padding-bottom: 14px;
+}
+#one {
+  margin-top: 80px;
+  margin-left: 20px;
+  text-align: left;
+}
+#two {
+  margin-top: 50px;
+  margin-left: 20px;
+  text-align: left;
+}
+#three {
+  margin-top: 50px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.img-circle {
+  background-color: #daffef;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.box {
+  margin-left: 25%;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  display: flex;
+}
+
+.all-icons {
+  display: block;
+  margin-left: 25%;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+.all-paragraphs {
+  display: block;
 }
