@@ -16,5 +16,3 @@ function nextStep(no) {
         nextStep.style.display = 'flex'
     }
 }
-
-document.querySelector(".dialog.step-2 .next").addEventListener("click", closeDialog)

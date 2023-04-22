@@ -25,6 +25,26 @@
         <h1 class="title">Game<br />Changer+</h1>
       </div>
       <div class="dialog step-1">
+        <!-- Trigger warning -->
+        <div class="dialog-content game-changer">
+          <h1>TRIGGER<br/>WARNING</h1>
+          <div class="themargin" style="margin: 20px;">
+            <b>If you are suffering from mental illnesses or feel
+              in an emotionally instable position, do not move further.
+
+              This game could trigger you emotionally since it is inspired
+              by real world situations by the community members,
+              but the whole story of the games is completely fictional.</b>
+          </div>
+          <button
+            class="next game-changer"
+            style="float:right; margin: 20px;"
+            onclick="nextStep(2)">
+            Move On
+          </button>
+        </div>
+      </div>
+      <div class="dialog step-2">
         <!-- UX explanation -->
         <div class="dialog-content">
           <div class="themargin">
@@ -44,14 +64,14 @@
               <p class="game-changer" class="keysstuff">
                 By clicking enter you confirm and move on.
               </p>
-              <button class="next game-changer" onclick="nextStep(2)">
+              <button class="next game-changer" onclick="nextStep(3)">
                 Next
               </button>
             </div>
           </div>
         </div>
       </div>
-      <div class="dialog step-2">
+      <div class="dialog step-3">
         <!-- Presentation of the character -->
         <div class="dialog-content">
           <h1 class="game-changer">Berlin</h1>
@@ -65,7 +85,10 @@
               <p class="game-changer">
                 Chalice is the LGTBQ+ super hero set in a world where she has to defend herself against homophobic mutants with her powerful killing dj sets - the all mighty empowerment. Tonight she is on the way to a famous club to save Berliner techno nerds when a mutant comes across...
               </p>
-              <a href="https://game-changer-henna.vercel.app/" target="_blank">Open</a>
+              
+              <a id="nicelink" href="https://game-changer-henna.vercel.app/" target="_blank">
+                <button id="buttonstuff">Open</button>
+                </a>
             </div>
           </div>
         </div>
@@ -198,25 +221,25 @@
               type="text"
               id="situation"
               name="situation"
-              value="Tell us about the situation..."
+              placeholder="Tell us about the situation..."
             />
             <input
               type="text"
               id="opinion"
               name="opinion"
-              value="Which option did you considered?"
+              placeholder="Which option did you considered?"
             />
             <input
               type="text"
               id="opinion"
               name="opinion"
-              value="Which option did you considered?"
+              placeholder="Which option did you considered?"
             />
             <input
               type="text"
               id="opinion"
               name="opinion"
-              value="Which option did you considered?"
+              placeholder="Which option did you considered?"
             />
           </form>
           <button class="send-button">Send</button>
