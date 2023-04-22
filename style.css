@@ -70,8 +70,8 @@ button:focus-visible {
 }
 
 .rainbow {
-  max-width: 50vw;
-  max-height: 50vh;
+  width: 80vh;
+  height: 80vh;
   z-index: 10;
   border-radius: 10%;
 }
@@ -125,6 +125,8 @@ button:focus-visible {
 .title {
   position: absolute;
   z-index: 10;
+  font-weight: 800;
+  font-size: 6rem;
 }
 
 .with-bg {
@@ -376,4 +378,25 @@ form {
 }
 .all-paragraphs {
   display: block;
+}
+
+#key1{
+  width:300px;
+}
+
+#key2{
+  width:150px;
+}
+
+.keysstuff{
+  margin-bottom: 70px;
+}
+
+.themargin{
+  margin-bottom: 30px;
+}
+
+.next{
+  background-color: #64B6AC;
+  color: white;
 }

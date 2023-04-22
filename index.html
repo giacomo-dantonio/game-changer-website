@@ -19,19 +19,21 @@
       <div class="dialog step-1">
         <!-- UX explanation -->
         <div class="dialog-content">
+          <div class="themargin">
           <h1>Welcome</h1>
           <b
             >With this game you will train to find the best solution for
             difficult situations and walk out of them with grace.</b
           >
+          </div>
           <div class="row">
             <div class="col">
-              <img src="keys1.png" class="avatar" />
+              <img id="key1" src="keys1.png" class="avatar" />
               <p>You can move using the arrow keys.</p>
             </div>
             <div class="col justify">
-              <img src="keys2.png" class="avatar" />
-              <p>By clicking enter you confirm and move on.</p>
+              <img id="key2" src="keys2.png" class="avatar" />
+              <p class="keysstuff">By clicking enter you confirm and move on.</p>
               <button class="next" onclick="nextStep(2)">Next</button>
             </div>
           </div>
