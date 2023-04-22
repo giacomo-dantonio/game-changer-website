@@ -105,7 +105,7 @@ button:focus-visible {
   .section1 p{
   font-weight: bold;
  }
- .problem {
+ .section-name {
   font-size: 50px;
  }
  .content{
@@ -138,4 +138,78 @@ button:focus-visible {
       right: 0;
       bottom: 0;
   }
+}
+.section3{
+  height: 1533px
+}
+.section-title{
+  display: block;
+}
+.content-section3{
+  display: flex;
+
+}
+.left p, h3 {
+  margin-left: 70px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.language-icon img{
+  margin-top: 10px;
+  width: 50px;
+  display: flex;
+  justify-content: start;
+}
+.language-icon ul {
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.links a{
+  color: black;
+
+}
+.links-images-content{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-flow: column wrap;
+}
+.github-content{
+
+}
+.send-button{
+  margin-top: 10px;
+  background-color: #64B6AC;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 25px;
+}
+.right p, h3 {
+  margin-right: 70px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+#situation, #opinion {
+  color: #C2C2C2;
+  font-weight: bolder;
+  margin: 5px;
+  border-radius: 5px;
+  border-color: #ffffff;
+}
+#situation {
+  height: 70px;
+}
+#opinion {
+  height: 30px;
+}
+#prog {
+  margin-left: 0;
 }

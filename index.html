@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
     <link href="game/style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Game Changer+</title>
   </head>
   <body>
     <div class="header">
@@ -15,7 +16,7 @@
     </div>
     <div class="section1 with-bg">
       <div class="content">
-      <h2 class="problem">Problem</h2>
+      <h2 class="section-name">Problem</h2>
       <p>Every year, the number of incidents against members of the LGBTQ+ community increases.
          A high percentage of incidents were reported in Berlin. Victims often feel helpless, vulnerable and in shock when they are abused
         </p>
@@ -36,11 +37,56 @@
       </div>
     </div>
     <div class="section2"></div>
-    <div class="section3 with-bg">
-      <h2>
+    <div class="section3 with-bg section-title">
+      <h2 class="section-name" >
         Contribute
       </h2>
+      <div class="content-section3">
+      <div class="left">
+        <h3>Content</h3>
+        <p>
+         <strong> Have you ever encountered a problematic situation where you felt helpless?</strong>
+         <br>
+          Share with the community what has happened to you and the options you have considered.
+          Your input will be reviewed by experts and your situation and input will be anonymously provided to all players in the game!
+        </p>
+        <div class="links-images-content">
+          <div class="github-content">
+        <img src="github.png" alt="" width="100">
+        <div class="links">
+          <img src="game.png" alt="" width="20">
+          <a href="">Game</a>
+          <img src="website.png" alt="" width="20">
+          <a href="">Website</a>
+          </div>
+        </div>
+        <div class="language-icon">
+          <ul>
+            <li><img src="js.png" alt=""></li>
+            <li><img src="css.png" alt=""></li>
+            <li><img src="ruby.png" alt=""></li>
+            <li><img src="html.png" alt=""></li>
+            <li><img src="ts.png" alt=""></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      <div class="right">
+<form>
+  <input type="text" id="situation" name="situation" value="Tell us about the situation...">
+  <input type="text" id="opinion" name="opinion" value="Which option did you considered?">
+  <input type="text" id="opinion" name="opinion" value="Which option did you considered?">
+  <input type="text" id="opinion" name="opinion" value="Which option did you considered?">
+</form>
+<button class="send-button">Send</button>
+<h3 id="prog">Programming</h3>
+<p>
+ <strong> Are you a tech savy person who wants to contribute to the community?</strong>
+ We are very grateful for any support with  our project. Our code is completely  open source. We are very happy to receive any commits and review them.
+</p>
+      </div>
     </div>
+  </div>
     <div class="section4"></div>
     <script type="module" src="/main.js"></script>
     <script src="game/bundle.js"></script>
