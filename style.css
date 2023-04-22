@@ -112,3 +112,27 @@ button:focus-visible {
   position: absolute;
 
 }
+
+#rpg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+@media (min-width: 800px) {
+  #rpg {
+      width: 816px;
+      height: 624px;
+  }
+}
+
+@media (max-width: 800px) {
+  #rpg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+  }
+}

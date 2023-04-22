@@ -1,0 +1,31 @@
+{
+  "icons": [
+    {
+      "src": "icon_256x256.6edd81425e40747a1393da697169b086.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_192x192.6a7fd9269258c0c5f1945f2d4d126619.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_128x128.ea3105a6f8de2d36344c060a1e92e133.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_96x96.b39e568ca21c3b834972fd92d8706a9d.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "My Game",
+  "short_name": "Game",
+  "orientation": "landscape",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Beautiful Game",
+  "background_color": "#ffffff"
+}
