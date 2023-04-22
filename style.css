@@ -25,7 +25,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+  display: block;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -110,8 +110,48 @@ button:focus-visible {
 }
 .title{
   position: absolute;
+}
+
+.with-bg {
+  background-color: #C0FDFB;
 
 }
+
+.section1, .section2, .section3, .section4 {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px ;
+    margin-bottom: 10px;
+    padding-bottom: 10px ;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .problem-image {
+    max-width: 10vw;
+    max-height: 10vh;;
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+  .section1 p{
+  font-weight: bold;
+ }
+ .problem {
+  font-size: 50px;
+ }
+ .content{
+  max-width: 1000px;
+ }
+
+ .content li {
+  max-width: 300px;
+ }
 
 #rpg {
   position: absolute;
