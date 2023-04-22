@@ -95,3 +95,20 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.rainbow{
+  max-width: 50vw;
+  max-height: 50vh;
+
+}
+.header{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.title{
+  position: absolute;
+
+}
