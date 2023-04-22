@@ -5,6 +5,9 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
     <link href="game/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inria+Sans:wght@400;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Game Changer+</title>
   </head>
@@ -20,21 +23,20 @@
         <!-- UX explanation -->
         <div class="dialog-content">
           <div class="themargin">
-          <h1>Welcome</h1>
-          <b
-            >With this game you will train to find the best solution for
+          <h1 class="game-changer">Welcome</h1>
+          <b class="game-changer">With this game you will train to find the best solution for
             difficult situations and walk out of them with grace.</b
           >
           </div>
           <div class="row">
             <div class="col">
               <img id="key1" src="keys1.png" class="avatar" />
-              <p>You can move using the arrow keys.</p>
+              <p class="game-changer">You can move using the arrow keys.</p>
             </div>
             <div class="col justify">
               <img id="key2" src="keys2.png" class="avatar" />
-              <p class="keysstuff">By clicking enter you confirm and move on.</p>
-              <button class="next" onclick="nextStep(2)">Next</button>
+              <p class="game-changer" class="keysstuff">By clicking enter you confirm and move on.</p>
+              <button class="next game-changer" onclick="nextStep(2)">Next</button>
             </div>
           </div>
         </div>
@@ -42,15 +44,15 @@
       <div class="dialog step-2">
         <!-- Presentation of the character -->
         <div class="dialog-content">
-          <h1>Berlin</h1>
-          <p>In front of Berghain</p>
+          <h1 class="game-changer">Berlin</h1>
+          <p class="game-changer">In front of Berghain</p>
           <div class="row">
             <div class="col">
               <img src="nikki.png" class="avatar" />
-              <b>Nikkie (29)</b>
+              <b class="game-changer">Nikkie (29)</b>
             </div>
             <div class="col justify">
-              <p>
+              <p class="game-changer">
                 You are Nikkie, a 29-year-old famous influencer and YouTuber who
                 resides in the USA. Recently, you came out as a trans person to
                 your fans. You are invited to attend an after party of a brand
@@ -66,20 +68,20 @@
     <div class="section1 with-bg">
       <div class="content">
       <h2 class="section-name">Problem</h2>
-      <p>Every year, the number of incidents against members of the LGBTQ+ community increases.
+      <p class="fonts-style">Every year, the number of incidents against members of the LGBTQ+ community increases.
          A high percentage of incidents were reported in Berlin. Victims often feel helpless, vulnerable and in shock when they are abused
         </p>
         <ul>
           <li>
-            <p>9/10 have experienced verbal attcks by strangers</p>
+            <p class="fonts-style">9/10 have experienced verbal attcks by strangers</p>
             <img class="problem-image" src="problem1.png" alt="" />
           </li>
           <li>
-            <p>Only every 1/5 victims report to the police</p>
+            <p class="fonts-style">Only every 1/5 victims report to the police</p>
             <img class="problem-image" src="problem2.png" alt="" />
           </li>
           <li>
-            <p>1/10 have experience with physical abused</p>
+            <p class="fonts-style">1/10 have experience with physical abused</p>
             <img class="problem-image" src="problem3.png" alt="" />
           </li>
         </ul>
@@ -91,7 +93,7 @@
         <h2 class="title_4">GameChanger+</h2>
         <img class="heart_4" src="./assets/heartIcon.png" alt="heartIcon">
       </div>
-        <div class="paragraph">
+        <div class="paragraph fonts-style" style="font-weight: bold;">
           Our game will prepare you for problematic situation that you may
           encounter in your daily life as an LGBTQ+ person. It will teach you how
           to deal with different problematic situations and make sure you know
@@ -125,12 +127,12 @@
             </div>
           </div>
           <div class="all-paragraphs">
-            <div class="paragraph" id="one">Ultimate fun gaming experience</div>
-            <div class="paragraph" id="two">
+            <div class="paragraph game-changer"  id="one" >Ultimate fun gaming experience</div>
+            <div class="paragraph game-changer"  id="two">
               You will learn to deal with any problematic situation based on
               research data and expert advises
             </div>
-            <div class="paragraph" id="three">
+            <div class="paragraph game-changer" id="three">
               Real life examples from community members
             </div>
           </div>
@@ -143,8 +145,8 @@
       <div class="content-section3">
       <div class="left">
         <h3>Content</h3>
-        <p>
-         <strong> Have you ever encountered a problematic situation where you felt helpless?</strong>
+        <p class="fonts-style">
+         <strong > Have you ever encountered a problematic situation where you felt helpless?</strong>
          <br>
           Share with the community what has happened to you and the options you have considered.
           Your input will be reviewed by experts and your situation and input will be anonymously provided to all players in the game!
@@ -152,7 +154,7 @@
         <div class="links-images-content">
           <div class="github-content">
         <img src="github.png" alt="" width="100">
-        <div class="links">
+        <div class="links fonts-style">
           <img src="game.png" alt="" width="20">
           <a href="">Game</a>
           <img src="website.png" alt="" width="20">
@@ -178,9 +180,10 @@
   <input type="text" id="opinion" name="opinion" value="Which option did you considered?">
 </form>
 <button class="send-button">Send</button>
-<h3 id="prog">Programming</h3>
-<p>
+<h3 id="prog" >Programming</h3>
+<p class="fonts-style">
  <strong> Are you a tech savy person who wants to contribute to the community?</strong>
+ <br>
  We are very grateful for any support with  our project. Our code is completely  open source. We are very happy to receive any commits and review them.
 </p>
       </div>
@@ -193,12 +196,12 @@
           <h1 class="title_4">Thank you</h1>
           <img class="heart_4" src="./assets/heartIcon.png" alt="heartIcon">
         </div>
-        <p class="text_4">
+        <p class="text_4 fonts-style">
           Thank you for being a rockstar! We e appreciate your support for the community!
         </p>
         <div class="buttons_container_4">
-          <button class="button_4">Share</button>
-          <button class="button_4">Donate</button>
+          <button class="button_4 game-changer">Share</button>
+          <button class="button_4 game-changer">Donate</button>
         </div>
       </div>
     </div>

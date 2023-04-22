@@ -1,5 +1,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Inria Sans', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -207,6 +209,7 @@ li {
 }
 .left p, h3 {
   margin-left: 70px;
+  margin-right: 20px;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -237,9 +240,6 @@ form {
  justify-content: center;
  align-items: center;
  flex-flow: column wrap;
-}
-.github-content{
-
 }
 .send-button{
   margin-top: 10px;
@@ -292,14 +292,8 @@ form {
   flex-flow: row wrap;
   justify-content: center;
 }
-.title_4 {
-  font-weight: 900;
-  font-size: 4rem;
-}
 
 .text_4 {
-  font-size: 1.5rem;
-  font-weight: 700;
   text-align: center;
   margin: 0;
   margin-bottom: 1.5em;
@@ -378,6 +372,27 @@ form {
 }
 .all-paragraphs {
   display: block;
+}
+
+h3 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 36px;
+}
+h2 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 56px;
+}
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 62px;
+}
+.fonts-style {
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 18px;
+}
+
+.game-changer{
+  font-family: 'Inria Sans', sans-serif;
 }
 
 #key1{
