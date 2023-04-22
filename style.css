@@ -457,9 +457,22 @@ h1 {
   background-color: #DAFFEF;
 }
 
-.content-team{
+.content-team-1{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
+}
+
+.content-profile{
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  background-color: #F5F5F5;
+}
+
+#picci{
+  text-align: center;
 }
