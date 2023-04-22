@@ -25,7 +25,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+  display: block;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -96,19 +96,29 @@ button:focus-visible {
   }
 }
 
-.rainbow{
+.rainbow {
   max-width: 50vw;
   max-height: 50vh;
-
 }
-.header{
+.header {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
 }
-.title{
+.title {
   position: absolute;
+}
+.section2 {
+  background-color: white;
+}
+.heading {
+  text-align: center;
+  font-size: 2.8em;
+}
 
+.paragraph {
+  text-align: center;
+  margin: 0px 40px 0px 40px;
 }
