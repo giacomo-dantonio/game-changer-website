@@ -118,6 +118,10 @@ button:focus-visible {
   z-index: 100;
 }
 
+.dialog:not(.step-0) {
+  display: none;
+}
+
 .title{
   position: absolute;
   z-index: 10;
